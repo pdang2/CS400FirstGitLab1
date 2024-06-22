@@ -1,5 +1,9 @@
 /*
- *	Color class
+ *	Dang Phuong Thao
+ *      pdang2@wisc.edu
+ *      phuong
+ *
+ * 	Color class
  */
 public class Color{
 	private String color;
@@ -24,9 +28,13 @@ public class Color{
 	 * 	and different from the exisitng color before making the change
 	 */
 	public boolean  changeColor(String newColor){
-		this.color = newColor;
-
-		return true;
+	        if (isColorValid(newColor) && !(this.color.equals(newColor))){
+	        	this.color = newColor;
+			return true;
+	        } 
+	        return false;
+	        
+		
 	}
 
 	public boolean isColorValid(String inputColor){

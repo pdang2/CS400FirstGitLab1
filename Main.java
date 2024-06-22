@@ -1,5 +1,10 @@
 /*
- * Test the use of the Color method
+ * 	Dang Phuong Thao
+ *      pdang2@wisc.edu
+ *      phuong
+ *
+ *Test the use of the Color method
+ *
  */
 import java.util.*;
 
