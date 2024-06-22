@@ -1,4 +1,8 @@
 /*
+ *      Dang Phuong Thao
+ *      pdang2@wisc.edu
+ *      phuong
+ *      
  * 	Color class
  */
 public class Color{
